@@ -162,9 +162,9 @@ input,textarea,select{
     padding: 0.5%;
 }
 
-input::after{
+/* input::after{
     background-color: rgba(0,0,0,0);
-}
+} */
 
 input:focus, textarea:focus, select:focus{
     outline: 2px solid orange;
