@@ -184,6 +184,7 @@ select option {
 
 textarea{
     display: block;
+    resize: none;
 }
 
 .floatright{
