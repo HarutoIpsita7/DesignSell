@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- Logo -->
+            <a href="index.html"><img src="https://via.placeholder.com/300x90.png?text=Logo+Image" alt="logo">
+                <h1>&nbsp;Company Name</h1>
+            </a>
+
+        </header>
+        <main>
+            <form class="textwhite" action="thankyou.html" method="get" enctype="application/x-www-form-urlencoded">
+                <div class="forml floatleft">
+                    <h2>
+                        <label for="name">Name <input type="text" name="customername" id="customername" required></label>
+                    </h2>
+                    <h2>
+                        <label for="email">Email <input type="email" name="email" id="email" required></label>
+                    </h2>
+                    <h2>
+                        <label for="phone">Phone <input type="tel" name="phone" id="phone" required></label>
+                    </h2>
+                    <h2>
+                        <label for="gender">Gender
+                            <p><input type="radio" name="gender" id="gender" value="male" required>Male</p>
+                            <p><input type="radio" name="gender" id="gender" value="female" required>Female</p>
+                        </label>
+                    </h2>
+                </div>
+                <div class="formr floatright">
+                    <h2>
+                        <label for="category"> Request Category
+                            <select id="pickup_place" name="pickup_place" required>
+                                <option value="general">General</option>
+                                <option value="urgent">Very Important</option>
+                                <option value="design">Interface</option>
+                                <option value="other">Others</option>
+                            </select>
+                        </label>
+                    </h2>
+                    <h2>
+                        <label for="comments">Comments <textarea name="comment" id="comment" cols="30"
+                                rows="10" required></textarea></label>
+                    </h2>
+                </div>
+                <div class="clear"></div>
+                <a href="thankyou.html"><input type="submit" value="SUBMIT"></a>
+                <input type="reset" value="RESET" class="formbtn">
+            </form>
+        </main>
+        <footer>
+            <h2>
+                <div>&copy; copyright 2022 on everything</div>
+                <br>
+                <div><a href="mailto:abc@gmail.com">Social Media Links</a></div>
+            </h2>
+        </footer>
+
+    </div>
+</body>
+
+</html>
